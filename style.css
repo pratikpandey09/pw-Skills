@@ -1,0 +1,60 @@
+.btn{
+    border: 1px solid #E97862;
+    color: #E97862;
+    padding: 0.8vw 2vw;
+    margin: 0.5vw 0vw;
+    margin-right: 3vw;
+}
+input{
+    background-color: #F8F8F8;
+}
+nav{
+    box-shadow: 0 10px 15px 0 rgb(0 0 0 / 0.09);
+}
+.btn2{
+    background-color: #E97862;
+}
+/* call wala button */
+.btnToCall{
+    color: #E97862;
+    border: 1px solid #E97862;
+}
+.heroH1{
+    color: rgba(20, 20, 20,0.8);
+    line-height: 4rem;
+}
+.third{
+    background-color: #F8F8F8;
+}
+.thirdh1{
+    color: #3D3D3D;
+}
+@media (min-width: 1024px) {
+    .lg\:w-auto {
+        width: 62vw;
+        height: 72vh;
+    }
+    .lg\:h-2\/3 {
+        height: 9vw;
+    }
+}
+
+@media (min-width: 1024px) {
+
+}
+.gradient-text {
+    background: linear-gradient(to right, rgb(225, 55, 168), rgb(243, 138, 119));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+footer{
+    background-color: #1B2124;
+}
+.Q1{
+    opacity: 0.50;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+.Q1.active {
+    opacity: 1;
+}
